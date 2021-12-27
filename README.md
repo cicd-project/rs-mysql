@@ -77,7 +77,7 @@ So we need to load that schema into the database, So those applications will det
 To download schema, Use the following command
 
 ```
-# curl -s -L -o /tmp/mysql.zip "https://github.com/roboshop-devops-project/mysql/archive/main.zip"
+# curl -s -L -o /tmp/mysql.zip "https://github.com/cicd-project/rs-mysql/archive/main.zip"
 ```
 
 Load the schema for Services.
@@ -85,7 +85,7 @@ Load the schema for Services.
 ```
 # cd /tmp
 # unzip mysql.zip
-# cd mysql-main
+# cd rs-mysql-main
 # mysql -u root -ppassword <shipping.sql
 ```
 
